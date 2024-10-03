@@ -47,6 +47,20 @@ header nav ul li a {
     font-size: 1.5rem;
 }
 
+.whatsapp{
+    position: relative;/*permite que elementos posicionadors dentro da classe sejam posicionados em relação a ela*/
+
+}
+
+.whatsapp img{
+    position: fixed; /*mantem a imagen em uma posição fixa na tela mesmo ao rolar a página*/
+    bottom: 20px; /*define a distancia da imagem em relação a parte inferior da tela*/
+    right: 20px;/*define a distancia da imagem em relação á direita da tela*/
+    width: 5rem;/*define a largura da imagem como 5 unidades de rem(relativas ap tamanho da fonte)*/
+    height: auto;/*ajuda a altura da imagem automaticamente para manter a proporção */
+}
+
+
 .section-1 {
     background: linear-gradient(180deg, #00000064 8.33%, rgba(0, 0, 0, 0.745)100%), url(img/house-1477041_1280.jpg);
     width: 100%;
@@ -69,7 +83,11 @@ header nav ul li a {
     background-color: rgba(128, 128, 128, 0.425);
     border-radius: 12px;
     font-size: 1.2rem;
+    border-color: white;
+    color: white;
 }
+
+
 
 .section-1 button:hover {
     cursor: pointer;
@@ -229,6 +247,7 @@ footer .texto{
         font-size: 1.5rem;
     }
 
+    
     .section-1 {
         padding: 8rem;
         display: flex;
@@ -282,8 +301,20 @@ footer .texto{
         align-items: center;
     }
 
+    footer p{
+        font-size: 1.1rem;
+    }
+
     footer i{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         z-index: 999;
     }
+    .whatsapp img{
+        width: 3.5rem;
+
+    }
+}
+
+html{
+    scroll-behavior: smooth;
 }
