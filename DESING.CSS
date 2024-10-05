@@ -233,9 +233,9 @@ footer .texto{
 
 @media(max-width:830px) {
 
-
+/*etilização do header*/
     header{
-        padding: 1.5rem;
+        padding: 1.5rem; /*dimui um pouco o tamanho do padin da pagina*/
     }
 
     header i {
@@ -247,37 +247,37 @@ footer .texto{
         font-size: 1.5rem;
     }
 
-    
+    /*estilização das section*/
     .section-1 {
-        padding: 8rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 8rem; /*almento da pagina */
+        display: flex;/*deixa a section flexivel*/
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
     }
     .section-1 h2{
-        font-size: 2rem;
-        text-align: left;
+        font-size: 2rem;/*tamanho da fonte da letra*/
+        text-align: left;/*o alinhamento do texto*/
     }
 
     .section-2 {
-        padding: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 0.5rem;/*tamanho do site*/
+        display: flex;/*deixa o site flexivel*/
+        flex-direction: column;/*deixa os itens em colunas*/
+        justify-content: center;/*deixa o testo justo no centro*/
+        align-items: center;/*alinhamento dos itens*/
     }
 
     .div-2 p {
-        width: 100%;
+        width: 100%;/*tamanho 100%*/
         line-height: 1.5;
-        text-align: left;
-        margin: 1em;
-        padding: 2.3rem;
+        text-align: left;/*alinhamento do texto*/
+        margin: 1em;/*espaçamento geral*/
+        padding: 2.3rem;/*tamanho do site*/
     }
 
     .div-1 img {
-        width: 20rem;
+        width: 20rem;/*tamanho da imagen*/
         margin: 0 2rem;
     }
 
